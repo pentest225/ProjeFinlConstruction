@@ -1,0 +1,86 @@
+.principale
+{
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    background-image: url('../images/home-post-3-418x315.jpg');
+    background-size: cover;
+    text-align: center;
+
+}
+.divLeft{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-image: url('../images/image4.jpg'); 
+    background-size: cover;
+    background-color:rgb(117, 109, 109,.5);
+    
+}
+.divLeft .lien
+{
+    width: 250px;
+}
+.divImage
+{
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+
+    background-color:rgb(215, 221, 229,.5);
+}
+
+
+
+/* CSS PLAN  */
+
+.imagesPlan
+{
+    background-color:grey;
+}
+.imagesPlan
+{
+    display: flex;
+    justify-content: space-around;
+}
+.ligne
+{
+    width: 90%;
+    margin: 10px;
+}
+.voir
+{
+    list-style-type: none;
+    background-color:rgb(93, 93, 155);
+    padding: 15px 25px; 
+    border-radius: 15px 0px 0px 15px;
+    color:white;
+}
+.agrandir
+{
+    list-style-type: none;
+    background-color:rgb(3, 3, 53);
+    padding: 15px 25px; 
+
+    border-radius: 0px 15px 15px 0px;
+    color:white; 
+}
+
+
+/* ******************************css emtrepreneur ******************************************** */
+
+.emtre
+{
+    margin: 70px 0px;
+    text-align: center;
+    background-image: url('../images/partenaire.jpg');
+    background-size: cover;
+    color: white;
+
+}
+.contenueEmtre{
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(137, 148, 165,0.8);
+
+}

@@ -1,0 +1,30 @@
+$(function(){
+	$('.wate').hide();
+	$('.ok').hide();
+	$('#formMessage').submit(function(e){
+		e.preventDefault();
+		$('.wate').show();
+		$form_data=$('#formMessage').serialize();
+		$.ajax({
+			type:"POST",
+			url:"../php/message.php",
+			data:$form_data,
+			dataType:'json',
+			success:function(resuslt)
+			{
+				if(resuslt.status){
+					$('.wate').hide();
+					$('.ok').show();
+					$('.ok').html(resuslt.message);
+				}
+				else
+				{
+					$('.wate').hide();
+					$('.ok').show();
+					var err= resuslt.message;
+					$('.ok').html(err);
+				}
+			}
+		})
+	})
+})

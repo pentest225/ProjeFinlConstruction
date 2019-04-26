@@ -1,0 +1,32 @@
+.imagesPlan
+{
+    background-color:grey;
+}
+.imagesPlan
+{
+    display: flex;
+    justify-content: space-around;
+}
+.ligne
+{
+    width: 90%;
+    margin: 10px;
+
+}
+.voir
+{
+    list-style-type: none;
+    background-color:rgb(93, 93, 155);
+    padding: 15px 25px; 
+    border-radius: 15px 0px 0px 15px;
+    color:white;
+}
+.agrandir
+{
+    list-style-type: none;
+    background-color:rgb(3, 3, 53);
+    padding: 15px 25px; 
+
+    border-radius: 0px 15px 15px 0px;
+    color:white; 
+}

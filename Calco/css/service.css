@@ -1,0 +1,39 @@
+
+
+
+.services
+{
+    display: flex;
+   border: 1px solid red;
+   justify-content: space-around;
+}
+.services a
+{
+    list-style-type: none;
+    text-decoration: none;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 20px;
+    text-shadow: 1px 1px blue;
+    box-shadow: 2px 2px gray;
+    height: 200px;
+    width: 250px;
+    
+}
+.services  .briques
+{
+    background-image:url('../images/briques.jpg');
+    background-size: cover; 
+}
+
+.services  .carrolages
+{
+    background-image:url('../images/carrolages.jpg');
+    background-size: cover; 
+}
+.services a :hover
+{
+    color:red;
+
+}

@@ -1,0 +1,78 @@
+
+/* section du header */
+
+header
+{
+    background-image:url('../images/bulding.jpg');
+    background-size:cover;
+    height: 500px;
+}
+header .contenu
+{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(51, 50, 50,.2);
+    height: 100%;
+    align-items: center;    
+}
+header .contenu h1
+{
+    font-size: 750%;
+    color: white;
+    border-top: 3px solid orange;
+}
+.form{
+    background-color: rgb(255, 255, 255,.5);
+    padding: 60px; 
+}
+.err
+{
+    text-align: center;
+    color:red;
+    font-style: italic;
+}
+.bienvenue
+{
+    position: relative;
+    text-align: center;
+    color: orange;
+    top:80px;
+}
+.principale
+{
+    background-image:url('../images/viewsImages/home-post-2-418x315.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.principale .contenu
+{
+    text-align: center;
+}
+.principale .contenu h3 
+{
+    color:white;
+    font-weight: bolder;
+    
+}
+.info
+{
+    border-radius: 5px;
+    box-shadow: 1px 2px #ecf0f1;
+    background-color: #ecf0f1;
+    margin: 5px;
+    padding: 20px;
+
+}
+
+.emtrepreneur h4
+{
+    color :#2ecc71;
+}
+.client h4
+{
+    color :#3498db;
+}
+.fournisseur h4
+{
+    color :#e67e22;
+}
